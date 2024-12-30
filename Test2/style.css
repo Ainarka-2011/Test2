@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+.seasons {
+  gap: 15px;
+  display: flex;
+  margin-top: 35vh;
+}
+.season {
+  width: 170px;
+  height: 70px;
+  display: flex;
+  color: white;
+  font-size: 18px;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
+}
+.winter {
+  border: 2px solid rgb(20, 90, 188);
+  background-color: rgb(29, 108, 219, 0.5);
+}
+.spring {
+  border: 2px solid rgb(15, 165, 62);
+  background-color: rgb(20, 201, 77, 0.5);
+}
+.summer {
+  border: 2px solid rgb(221, 228, 17);
+  background-color: rgb(227, 233, 50, 0.5);
+}
+.autumn {
+  border: 2px solid rgb(255, 166, 1);
+  background-color: rgb(224, 157, 33, 0.5);
+}
+.months {
+  gap: 15px;
+  display: flex;
+  margin-top: 5vh;
+  justify-content: center;
+}
+.month {
+  width: 170px;
+  height: 70px;
+  display: flex;
+  color: white;
+  font-size: 18px;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
+}
+.monthWinter {
+  border: 2px solid rgb(20, 90, 188);
+  background-color: rgb(29, 108, 219, 0.9);
+}
+.monthSpring {
+  border: 2px solid rgb(15, 165, 62);
+  background-color: rgb(20, 201, 77, 0.9);
+}
+.monthSummer {
+  border: 2px solid rgb(221, 228, 17);
+  background-color: rgb(227, 233, 50, 0.9);
+}
+.monthAutumn {
+  border: 2px solid rgb(255, 166, 1);
+  background-color: rgb(224, 157, 33, 0.9);
+}
